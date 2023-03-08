@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="assignment 2">
+        <meta name="viewport" content="width=device-width,initial-scale=1"> 
+        <meta name="robots" content="no index, no follow">
+        <title>Pizza Website</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <!-- add css-->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <!-- logo -->
+            <div class="logo">
+                <img src="./img/logo.jpeg" alt="logo">
+            </div>
+            <!-- navigation -->
+            <nav>
+                <menu>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="index.html">Brand story</a></li>
+                    <li>Store locator</li>
+                    <li>Latest news</li>
+                    <li>Food security</li>
+                    <li>Join us</li>
+                    <li>Contact us</li>
+                </menu>
+            </nav>
+        </header>
+        <main>
+            <!-- banner -->
+            <div class="banner">
+                <img src="./img/banner.webp" alt="banner">
+            </div>
+            <!-- about pizza-->
+            <div class="about-pizza">
+                <h1>Brand Introduction</h1>
+                <p class="detailed Introduction">HTML Pizza Catering Management Co., Ltd. was established in 2010. Currently, we have over 170 stores in Shanghai, Guangzhou, Shenzhen, and other cities, all of which are company-owned and not franchised.
+
+                    We are an investment enterprise of Sequoia Capital and the first catering enterprise invested by Sequoia Capital in China.
+                    
+                    In 2011, we pioneered durian pizza, which has since become popular nationwide.</p>
+                <img src="./img/pizza chef.jpeg" alt="chef">
+            </div>
+            <div class="mission-and-vision">
+                <h2>Mission And Vision</h2>
+                <p>To become a world-class pizza chain and bring joy to customers' lives in more places around the world.</p>
+            </div>
+            <div class="brand-genes">
+                <h2>Brand Genes</h2>
+                <p>Craftsman spirit x Joy</p>
+                <img src="./img/retaurant.jpeg" alt="retaurant">
+            </div>
+            <!-- pizza pictures & form for ordering pizza-->
+            <div class="order">
+                <div class="sample">
+                    <img src="./img/Pepperoni.jpg" alt="Pepperoni">
+                    <img src="./img/Butter Chicken.jpg" alt="Butter Chicken">
+                    <img src="./img/Shahi.jpg" alt="Shahi">
+                    <img src="./img/Tandoori.jpg" alt="Tandoori">
+                </div>
+                <form id="order">
+                    <fieldset>
+                        <legend>Personal information</legend>
+                        <p>name:  <input type="text" name="username" placeholder="Please input your name here" required></p>
+                        <p>address:  <input type="text" name="address" placeholder="Please input your address here" required></p>
+                        <p>Tel:  <input type="text" name="phone" placeholder="Please input your phone number here" ></p>
+                    </fieldset>
+                    <p>toppings: <select name="top pings"> 
+                        <option value="Pepperoni" selected>Pepperoni</option>
+                        <option value="Butter Chicken">Butter Chicken</option>
+                        <option value="Shahi">Shahi</option>
+                        <option value="Tandoori">Tandoori</option></p>
+                    <p>size: <input type="radio" name="size" value="9 inch" id="9inch" checked>
+                        <label for="9inch">9 inch</label>
+                        <input type="radio" name="size" value="12 inch" id="12inch">
+                        <label for="12inch"> 12 inch</label>
+                            number: <select name="number"> 
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option> 
+                            <option value="5">5</option> </select></p>
+                    <p>side dishes: <input type="checkbox" name="side dishes" value="salad" id="salad">
+                        <label for="salad">Salad     </label>   number: <select name="number"> 
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option> 
+                            <option value="5">5</option>
+                        <input type="checkbox" name="side dishes" value="pumpkin soup" id="ps">
+                        <label for="ps">Pumpkin soup      </label> 
+                               number:              <select name="number"> 
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option> 
+                            <option value="5">5</option> </select> 
+                            <p>
+                            <input type="radio" name="way" value="delivery" id="delivery">
+                            <label for="delivery">DELIVERY</label>
+                            <input type="radio" name="way" value="carryout" id="carryout">
+                            <label for="carryout">CARRYOUT</label></p>
+                    <p><input type="submit" value="Add to cart"></p>
+                    
+                </form>
+            </div>
+        </main>
+        <!-- back to top-->
+        <button class="back-to-top"><a href="#top"><img src="./img/back-to-top.png"></a></button>
+        <!-- footer-->
+        <footer id="copyrights">
+            <p>Copyright©2009 - 2019 HTML PIZZA. All Rights Reserved. 
+                </p>
+        </footer>
+    </body>
+</html>

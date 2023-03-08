@@ -1,0 +1,203 @@
+/*********************/
+/** General styling **/
+/*********************/
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/* font */
+ p, li,legend  {
+    font-size: 15px;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+
+li {
+    font-family: "Robot Condensed", sans-serif;
+}
+
+p {
+   width: 60%;
+   font-family: "Mynerve", sans-serif;
+}
+
+footer p {
+    font-family: initial;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: auto 
+}
+
+h1, h2 {
+    font-family: "Shantell Sans", sans-serif;
+    font-size: 25px;
+    color: white;
+    
+}
+
+
+
+/** flex layout **/
+
+
+body header{               
+    width: 80%;
+    margin: 0px 20px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+/** logo & nav  **/
+
+.logo{
+    margin-top: 5px;
+    height: 77px;
+}    
+
+body header nav{
+    margin-top: 5px;
+}
+
+body header menu {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+} 
+
+.logo img{
+   width: 30%;
+   background-repeat: no-repeat;
+   background-color: transparent;
+}
+
+body header menu li{
+    list-style: none;
+    font-size: larger;
+    margin-left: 15px;
+    width: 100%;
+}
+
+body header menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+/** main page **/
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-pizza {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}                       
+
+.about-pizza img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}                         
+
+.mission-and-vision {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.brand-genes {
+    width: 100%;
+    height: auto;  
+    text-align: center;  
+}
+
+.brand-genes img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.sample img{
+    border-radius: 8px;
+    width: 24%;
+    margin: auto;
+}
+
+#elevator_item a{
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+  
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0;
+}
+
+
+.back-to-top a img {
+    width: 20px;
+    height: 20px;
+}
+
+#copyrights {
+    text-align: center;
+    margin-left: auto;
+}
+
+
+/** form layout  **/
+
+
+
+form{
+    padding: 0;
+    width: 85%;
+    margin-left: 0%;
+}
+
+legend{
+    text-align: left;
+}
+
+form p{
+    margin-left: 0%;
+}
+
+input[type=email] {
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+
+
+
+input[type=text] {
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+
+input[type=submit] {
+    width: auto;
+    margin-left: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 4px
+}
